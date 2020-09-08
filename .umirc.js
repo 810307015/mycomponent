@@ -18,5 +18,5 @@ module.exports = {
   ],
   publicPath: "./",
   // base: "/dumidocs",
-  // outputPath: path.join('../../CivWebPublish/dumidocs')
+  outputPath: path.join('./')
 }
