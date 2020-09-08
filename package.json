@@ -1,0 +1,26 @@
+{
+  "name": "mycomponent",
+  "version": "1.0.0",
+  "description": "平时写的react组件，积累起来方便以后使用",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx dumi dev",
+    "build": "npx dumi build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/810307015/mycomponent.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/810307015/mycomponent/issues"
+  },
+  "homepage": "https://github.com/810307015/mycomponent#readme",
+  "devDependencies": {
+    "dumi": "^1.0.34",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

@@ -1,0 +1,26 @@
+.Switch {
+  .switch-box {
+    position: relative;
+    width: 36px;
+    height: 16px;
+    margin: 0 6px;
+    border-radius: 8px;
+
+    .switch-point {
+      position: absolute;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      top: -1px;
+      transition: all 0.3s;
+
+      &.off {
+        left: -6px
+      }
+
+      &.on {
+        left: calc(100% - 13px);
+      }
+    }
+  }
+}
